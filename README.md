@@ -91,7 +91,7 @@ Poner en producción Django con Apache con WSGI
 ### 14) BackUp MySQL:
   - De la forma que lo hagas vas a necesitar agregar una regla si instalaste el UFW:
     - sudo ufw allow from "ip" to any port 3306
-    - Permisos necesarios si no los configuraste en 8)
+    - Permisos necesarios si no los configuraste en ### 8)
 
 
 
