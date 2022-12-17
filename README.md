@@ -74,7 +74,8 @@ Poner en producción Django con Apache con WSGI
   - sudo systemctl status apache2
   - sudo systemctl restart apache2
 
-*** Con esta configuración ya debería de funcionar tu página principal del proyecto 
+*** Con esta configuración ya debería de funcionar tu página principal del proyecto ***
+
 *** Para cualquier error recurrir a los logs en: cd /var/log/apache2/ 
 
 ### 11) Volcado de información en MySQL:
