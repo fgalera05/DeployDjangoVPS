@@ -1,4 +1,4 @@
-# DeployDjangoVPS
+# DeployDjangoVPS - 100% funcional
 Poner en producción Django con Apache con WSGI
 
 ## Detalle de lo que se quiere poner en producción:
