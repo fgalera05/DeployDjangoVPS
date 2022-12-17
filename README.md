@@ -1,7 +1,7 @@
 # DeployDjangoVPS
 Poner en producción Django con Apache con WSGI
 
-Detalle de lo que se quiere poner en producción:
+# Detalle de lo que se quiere poner en producción:
   - Desarrollo realizado en Django con repositorio en GitHub
   - Base de datos MySQL
 
