@@ -28,10 +28,10 @@ Requisitos:
   - sudo apt install git-all
   - Vamos a la carpeta de Apache para clonar el repo:
     - cd /var/www/html/
-    - git clone https://github.com/myUsuario/repo.git (se crea el directorio /var/www/html/nombre_repositorio)
+    - Deberíamos de lograr tener: /var/www/html/nombre_repositorio
 
 4) Entorno virtual:
-  - Dentro de: /var/www/html/nombre_repositorio
+  - cd /nombre_repositorio
   - sudo pip3 install virtualenv 
   - virtualenv -p python3 venv
   - source env/bin/activate
@@ -41,6 +41,7 @@ Requisitos:
   - sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
   - pip3 install mysqlclient
   - pip3 install django
+  - deactivate
 
 6) WSGI para Apache
   - sudo apt-get install libapache2-mod-wsgi-py3 
