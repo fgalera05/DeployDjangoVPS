@@ -69,7 +69,7 @@ Poner en producción Django con Apache con WSGI
 
 ### 10) Conetar Django con sitio web:
   - sudo nano /etc/apache2/sites-available/nombre_de_dominio.conf
-  - Configuración: ver ejemploVirtualHost.txt
+  - Configuración: ver ejemploVirtualHost.txt del repositorio
   - sudo apache2ctl configtest
   - sudo systemctl status apache2
   - sudo systemctl restart apache2
