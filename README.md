@@ -69,37 +69,7 @@ Requisitos:
 
 10) Conetar Django con sitio web:
   - sudo nano /etc/apache2/sites-available/nombre_de_dominio.conf
-  - Configuración:
-
-    <VirtualHost *:80>
-      ServerName nombre_de_dominio   
-      ServerAlias localhost
-      ServerAdmin localhost
-      DocumentRoot /var/www/html/nombre_repositorio
-      Alias /static/ /var/www/html/nombre_repositorio/static/ (collectstatic)
-      Alias /media/  /var/www/html/nombre_repositorio/media/
-      WSGIPassAuthorization On
-      WSGIScriptAlias / /var/www/html/nombre_repositorio/nombre_proyecto_Django/wsgi.py
-      WSGIProcessGroup nombre_repositorio
-      ErrorLog ${APACHE_LOG_DIR}/error_http.log
-      CustomLog ${APACHE_LOG_DIR}/access_http.log combined
-    </VirtualHost>
-
-    <VirtualHost *:443>
-      ServerName nombre_de_dominio  
-      ServerAlias localhost
-      ServerAdmin localhost
-      DocumentRoot /var/www/html/nombre_repositorio
-      Alias /static/ /var/www/html/nombre_repositorio/static/
-      Alias /media/  /var/www/html/nombre_repositorio/media/
-      WSGIPassAuthorization On
-      WSGIScriptAlias / /var/www/html/nombre_repositorio/nombre_proyecto_Django/wsgi.py
-      WSGIDaemonProcess nombre_repositorio python-path=/var/www/html/nombre_repositorio:/var/www/html/nombre_repositorio/env/lib/python3.XX/site-packages (tu versión de Python)
-      WSGIProcessGroup nombre_repositorio
-      ErrorLog ${APACHE_LOG_DIR}/error_httpslog
-      CustomLog ${APACHE_LOG_DIR}/access_https.log combined
-    </VirtualHost>
-
+  - Configuración: ver ejemploVirtualHost.txt
   - sudo apache2ctl configtest
   - sudo systemctl status apache2
   - sudo systemctl restart apache2
