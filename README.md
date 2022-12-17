@@ -1,16 +1,16 @@
 # DeployDjangoVPS
 Poner en producción Django con Apache con WSGI
 
-# Detalle de lo que se quiere poner en producción:
+## Detalle de lo que se quiere poner en producción:
   - Desarrollo realizado en Django con repositorio en GitHub
   - Base de datos MySQL
 
-Requisitos:
+## Requisitos:
   - Servidor con Ubuntu Server con acceso sobre HTTP, HTPPS y SSH.
   - nombre_de_dominio
   - Archivo de SQL para importar: mi_archivo.sql
 
-1) Apache:
+### 1) Apache:
   - sudo apt update
   - sudo apt upgrade
   - sudo apt install apache2
