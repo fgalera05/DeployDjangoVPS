@@ -76,7 +76,7 @@ Poner en producción Django con Apache con WSGI
 
 *** Con esta configuración ya debería de funcionar tu página principal del proyecto ***
 
-*** Para cualquier error recurrir a los logs en: cd /var/log/apache2/ 
+*** Para cualquier error recurrir a los logs en: cd /var/log/apache2/ ***
 
 ### 11) Volcado de información en MySQL:
   - mysqldump -u your_username -p my_db < mi_archivo.sql
